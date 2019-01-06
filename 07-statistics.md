@@ -96,7 +96,19 @@ P(IT|TB)=P(TB|IT)P(IT)/P(TB)=P(TB|IT)P(IT)/(P(TB|IT)P(IT)+P(TB|FT)P(FT))=1/2\cdo
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayesian  
+* uses probabilities for both hypotheses and data.
+* depends on the prior and likelihood of observed data.
+* requires one to know or construct a ‘subjective prior’.
+* dominated statistical practice before the 20th century.
+* may be computationally intensive due to integration over many parameters.   
+Frequentist  
+* never uses or gives the probability of a hypothesis (no prior or posterior).
+* depends on the likelihood P(D | H)) for both observed and unobserved data.
+* does not require a prior.
+* dominated statistical practice during the 20th century.
+* tends to be less computationally intensive.
+
 
 ---
 
