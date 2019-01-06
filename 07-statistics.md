@@ -87,24 +87,24 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
 >> P(FT)=1/125, P(IT)=1/300, P(TB)?  
-Given Elvis is a boy, probability that fraternal twins are both boys is P(TB|FT) = 1/2 × 1/2 = 1/4, while the Probability
-that identical twins are boys is P(TB|IT) = 1/2.  
+Elvis is a boy, probability that fraternal twins areboys is P(TB|FT) = 1/2 × 1/2 = 1/4.
+the Probability that identical twins are boys is P(TB|IT) = 1/2.  
 P(IT|TB)=P(TB|IT)P(IT)/P(TB)=P(TB|IT)P(IT)/(P(TB|IT)P(IT)+P(TB|FT)P(FT))=1/2\cdot 1/300/(1/2\cdot 1/300 +1/4\cdot 1/125)=5/11  
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
+General difference is Frequentists see the parameter as fixed; Bayesians see the data as fixed. 
 
 >> Bayesian  
 * uses probabilities for both hypotheses and data.
 * depends on the prior and likelihood of observed data.
-* requires one to know or construct a ‘subjective prior’.
-* dominated statistical practice before the 20th century.
+* requires one to know subjective prior.
 * may be computationally intensive due to integration over many parameters.   
 Frequentist  
 * never uses or gives the probability of a hypothesis (no prior or posterior).
-* depends on the likelihood P(D | H)) for both observed and unobserved data.
+* depends P(D | H)) for both observed and unobserved data.
 * does not require a prior.
 * dominated statistical practice during the 20th century.
 * tends to be less computationally intensive.
