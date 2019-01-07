@@ -38,10 +38,10 @@ Cohen's d for the difference in birth weight between first-born babies and other
     firsts_preglngth = firsts.prglngth
     others_preglngth = others.prglngth
     firsts_totalwght = firsts.totalwgt_lbs
-others_totalwght = others.totalwgt_lbs
+    others_totalwght = others.totalwgt_lbs
 
-#Cohen's d for pregnency length between first-born and other babies
-CohenEffectSize(firsts_preglngth, others_preglngth)
+    #Cohen's d for pregnency length between first-born and other babies
+    CohenEffectSize(firsts_preglngth, others_preglngth)
 
-#Cohen's d for birth weight (in lbs) between first-born and other babies
-CohenEffectSize(firsts_totalwght, others_totalwght)
+    #Cohen's d for birth weight (in lbs) between first-born and other babies
+    CohenEffectSize(firsts_totalwght, others_totalwght)
