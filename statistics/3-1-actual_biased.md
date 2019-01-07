@@ -5,7 +5,7 @@ The biased mean is: 2.403679100664282
 
 Bias is due to households with no kid not being surveyed and kids with large households with occur with more freguency 
 
-'''{python}
+'''
 
 import math
 import nsfg
