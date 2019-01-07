@@ -5,7 +5,7 @@ The biased mean is: 2.403679100664282
 
 Bias is due to households with no kid not being surveyed and kids with large households with occur with more freguency 
 
-'''
+---
 
 import math
 import nsfg
@@ -44,4 +44,4 @@ thinkplot.Show(xlabel='Number of children', ylabel='PMF')
 # Compute means
 print(f"The actual mean is: {pmf.Mean()}")
 print(f"The biased mean is: {biased_pmf.Mean()}")
-'''
+---
